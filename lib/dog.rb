@@ -16,7 +16,7 @@ end
 def self.print_all
   @@all.each do |eachdog|
     puts eachdog.name
-  end
+end
   
 def self.clear_all
   @@all = []

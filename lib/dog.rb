@@ -23,8 +23,6 @@ def self.clear_all
   @@all = []
 end
   
-private
-
 def self.save
   @@all << self
 end
